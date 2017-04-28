@@ -1,0 +1,71 @@
+﻿<link rel="import" href="/sys/polymer/polymer.html">
+
+<template>
+    <template is="dom-bind">
+        <a href="/RealFranschiseShanto">Back to start</a>
+        <h1>Setting: </h1>
+        <h3>Edit franschise settings</h3>
+        <label>Name:</label>
+        <input value="{{model.Name$::input}}"/><br>
+        <label>Street:</label>
+        <input value="{{model.Street$::input}}" />
+        <br>
+        <label>Number:</label>
+        <input value="{{model.Number$::input}}" />
+        <br>       
+        <label>ZipCode:</label>
+        <input value="{{model.ZipCode$::input}}"/><br>
+        <label>City:</label>
+        <input value="{{model.City$::input}}"/><br>
+        <label>Country:</label>
+        <input value="{{model.Country$::input}}"/><br>
+        <label>{{model.FullAddress}}</label>
+        <button value="{{model.SaveOfficeTrigger$::click}}" onmousedown="++this.value">Save</button><br>
+        
+        <br>
+        <h3>Register new home for sale</h3>
+        <h3>Home info</h3>
+        
+        <label>Street:</label>
+        <input value="{{model.TStreet$::input}}" />
+        <br>
+        <label>Number:</label>
+        <input value="{{model.TNumber$::input}}" />
+        <br>
+        <label>ZipCode:</label>
+        <input value="{{model.TZipCode$::input}}" />
+        <br>
+        <label>City:</label>
+        <input value="{{model.TCity$::input}}" />
+        <br>
+        <label>Country:</label>
+        <input value="{{model.TCountry$::input}}" />
+        <br>
+
+        <h3>Transaction Info</h3>
+        <label>Date:</label>
+        <input value="{{model.TDate$::input}}"/><br>
+        <label>Sales Price:</label>
+        <input value="{{model.TSalesPrice$::input}}"/><br>
+        <label>Commission:</label>
+        <input value="{{model.TCommission$::input}}"/><br>
+
+        <button value="{{model.RegisterTransactionTrigger$::click}}"
+                onmousedown="++this.value">Register</button>
+
+        <br>
+
+        <table>
+            <tr>
+                <th>Date||</th>
+                <th>Sales price||</th>
+                <th>Commission||</th>
+                <th>Address</th>                
+            </tr>
+        </table>  
+        <template is="dom-repeat" items="{{model.TransactionList}}">
+            <starcounter-include partial="{{item}}"></starcounter-include>
+        </template>
+
+    </template>
+</template>

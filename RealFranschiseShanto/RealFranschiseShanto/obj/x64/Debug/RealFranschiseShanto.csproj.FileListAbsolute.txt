@@ -1,0 +1,5 @@
+C:\Users\ThinkPad\Desktop\testTask\RealFranschiseShanto\RealFranschiseShanto\bin\Debug\RealFranschiseShanto.exe
+C:\Users\ThinkPad\Desktop\testTask\RealFranschiseShanto\RealFranschiseShanto\bin\Debug\RealFranschiseShanto.pdb
+C:\Users\ThinkPad\Desktop\testTask\RealFranschiseShanto\RealFranschiseShanto\obj\x64\Debug\RealFranschiseShanto.exe
+C:\Users\ThinkPad\Desktop\testTask\RealFranschiseShanto\RealFranschiseShanto\obj\x64\Debug\RealFranschiseShanto.pdb
+C:\Users\ThinkPad\Desktop\testTask\RealFranschiseShanto\RealFranschiseShanto\obj\x64\Debug\RealFranschiseShanto.csprojResolveAssemblyReference.cache

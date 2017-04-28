@@ -1,0 +1,18 @@
+{
+  "Html": "/RealFranschiseShanto/OfficeView.html",
+  "Name$": "",
+  "Company": {},
+  "NumberOfHomesSold": 0,
+  "TotalCommission": 0,
+  "AverageCommission": 0.0,
+  "Trend": 0,
+  "OfficeEditLink": "",
+  "Street$": "",
+  "Number$": 0,
+  "ZipCode$": 0,
+  "City$": "",
+  "Country$": "",
+  "FullAddress": "",
+  "TransactionList": [ {} ],
+  "EditOfficeTrigger$": 0
+}

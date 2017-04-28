@@ -1,0 +1,32 @@
+﻿<link rel="import" href="/sys/polymer/polymer.html">
+
+<template>
+    <template is="dom-bind">
+        <h4>{{model.Name}}</h4>
+        <h3>Franchise Offices</h3>
+        <h3>Sort on</h3>
+        <button value="{{model.SortByNumberOfHomesTrigger$::click}}" onmousedown="++this.value">Number of homes</button>
+        -<button value="{{model.SortByTotalCommisionTrigger$::click}}" onmousedown="++this.value">Total Comission</button>
+        -<button value="{{model.SortByAverageComissionTrigger$::click}}" onmousedown="++this.value">Average Commision</button>
+        -<button value="{{model.SortByTrendTrigger$::click}}" onmousedown="++this.value">Positive trend</button>
+
+        <table>
+            <tr>
+                <th>Name-||-</th>
+                <th>Number of Homes Sold-||-</th>
+                <th>Total Commission-||-</th>
+                <th>Average Commission-||-</th>
+                <th>Trend</th>
+            </tr>
+        </table>     
+            <template is="dom-repeat" items="{{model.OfficeList}}">
+                <starcounter-include partial="{{item}}"></starcounter-include>
+            </template>        
+        
+
+        <h3>New franchise Office</h3>
+        <label>Name:</label>
+        <input value="{{model.OfficeNameToCreate$::input}}" />
+        <button value="{{model.AddOfficeTrigger$::click}}" onmousedown="++this.value">Create new</button>
+    </template>
+</template>

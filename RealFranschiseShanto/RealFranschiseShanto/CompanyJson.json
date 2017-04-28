@@ -1,0 +1,11 @@
+{
+  "Html": "/RealFranschiseShanto/CompanyView.html",
+  "Name": "",
+  "OfficeList": [ {} ],
+  "AddOfficeTrigger$": 0,
+  "OfficeNameToCreate$": "",
+  "SortByNumberOfHomesTrigger$": 0,
+  "SortByTotalCommisionTrigger$": 0,
+  "SortByAverageComissionTrigger$": 0,
+  "SortByTrendTrigger$": 0
+}

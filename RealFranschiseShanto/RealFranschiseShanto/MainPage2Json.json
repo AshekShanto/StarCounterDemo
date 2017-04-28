@@ -1,0 +1,28 @@
+{
+  "Html": "/RealFranschiseShanto/MainPage2.html",
+  "Name$": "",
+  "Company": {},
+  "NumberOfHomesSold": 0,
+  "TotalCommission": 0,
+  "AverageCommission": 0.0,
+  "Trend": 0,
+  "Street$": "",
+  "Number$": 0,
+  "ZipCode$": 0,
+  "City$": "",
+  "Country$": "",
+  "FullAddress": "",
+  "SaveOfficeTrigger$": 0,
+  "TransactionList": [ {} ],
+  "OfficeEditLink": "",
+
+  "TStreet$": "",
+  "TNumber$": 0,
+  "TZipCode$": 0,
+  "TCity$": "",
+  "TCountry$": "",
+  "TDate$": "",
+  "TSalesPrice$": 0,
+  "TCommission$": 0,
+  "RegisterTransactionTrigger$": 0
+}
